@@ -1,0 +1,19 @@
+<html>
+<head>
+ <script src="lrc2cdg.js"></script>
+ <script src="controller.js"></script>
+ <link rel="stylesheet" href="styles.css">
+ <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+ <div style="padding-left:25%;padding-right:25%;">
+   <p>LRC to CDG</p>
+   <input type="file" id="fileForUpload" onchange="scanfile()">
+   <input type="color" id="textcolor" name="textcolor"
+              value="#44ccff"><button style="display:none;" onclick="reload()">Convert another</button><br><br>
+
+  <span>Make sure the lrc file uses unix style line endings</span>
+
+ </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body {
+  background-color: #3f51b5;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color:white;
+}
+.done {
+  background-color:#4caf50;
+  -webkit-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+body > :first-child {
+  position: relative;
+  top:20%;
+}
+body p {
+  font-size:100px;
+}
